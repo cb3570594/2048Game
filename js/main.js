@@ -77,7 +77,7 @@ function isgameover(){
 	}
 }
 function gameover(){
-	//alert('gameover');
+	alert('gameover');
 }
 
 $(document).keydown(function(event){
