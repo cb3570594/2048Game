@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑"
+}
+header{
+	margin:15px 0 10px 0;
+	text-align: center;
+	width:100%;
+}
+.new_game_btn{
+	text-decoration: none;
+	color: white;
+	background: #cccbbb;
+	display: block;
+	border-radius: 2px;
+	width: 100px;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+	font-weight: bold;
+}
+.new_game_btn:hover{
+	background: #bbbccc;
+}
+.mainBox{
+	width: 410px;
+	height: 410px;
+	background: #cccbbb;
+	margin: 0 auto;
+	padding: 5px;
+	border-radius: 5px;
+	position: relative;
+}
+.cell{
+	width: 100px;
+	height: 100px;
+
+	background: #bbbccc;
+	border-radius: 5px;
+	margin: 2px 0 0 2px;
+	position: absolute;
+}
+.number_cell{
+	width: 100px;
+	height: 100px;
+	margin: 2px 0 0 2px;
+	position: absolute;
+	border-radius: 5px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 60px;
+}
